@@ -1,0 +1,129 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 23, 2017, 4:07:39 PM
+    Author     : Lê Đại An
+*/
+.logo {
+    width: 213px;
+    height: 36px;
+    margin: 30px auto;
+}
+
+.login-block {
+    width: 320px;
+    padding: 20px;
+    background: #e0f1ff;
+    border-radius: 5px;
+    border-top: 5px solid #2382c8;
+    margin: 0 auto;
+}
+
+.login-block h1 {
+    text-align: center;
+    color: #000;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.login-block input {
+    width: 100%;
+    height: 42px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-family: Montserrat;
+    padding: 0 20px 0 50px;
+    outline: none;
+}
+
+.login-block input#username {
+    background: #fff url('http://i.imgur.com/u0XmBmv.png') 20px top no-repeat;
+    background-size: 16px 80px;
+}
+
+.login-block input#username:focus {
+    background: #fff url('http://i.imgur.com/u0XmBmv.png') 20px bottom no-repeat;
+    background-size: 16px 80px;
+}
+
+.login-block input#password {
+    background: #fff url('http://i.imgur.com/Qf83FTt.png') 20px top no-repeat;
+    background-size: 16px 80px;
+}
+
+.login-block input#password:focus {
+    background: #fff url('http://i.imgur.com/Qf83FTt.png') 20px bottom no-repeat;
+    background-size: 16px 80px;
+}
+
+.login-block input:active, .login-block input:focus {
+    border: 1px solid #2382c8;
+}
+
+.login-block button {
+    width: 100%;
+    height: 40px;
+    background: #2382c8;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #2382c8;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: Montserrat;
+    outline: none;
+    cursor: pointer;
+}
+
+.login-block button:hover {
+    background: #2170a9;
+}
+
+.btn-view {
+    width: 80px;
+    height: 32px;
+    background: #2382c8;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: 1px solid #2382c8;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+    outline: none;
+    cursor: pointer;
+    font-weight: 400;
+}
+
+.btn-view:hover {
+    background: #2170a9;
+}
+
+.btn-account {
+    width: 132px;
+    height: 32px;
+    background: #ff0000;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #ff6633;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+    outline: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn-account:hover {
+    background: #cc0000;
+    color: #f5e8e8;
+}
+

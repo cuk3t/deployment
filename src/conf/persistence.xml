@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="TestHouseDecorPU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>hd.entity.Admin</class>
+    <class>hd.entity.Category</class>
+    <class>hd.entity.City</class>
+    <class>hd.entity.IdeaBook</class>
+    <class>hd.entity.IdeaBookPhoto</class>
+    <class>hd.entity.OrderDetail</class>
+    <class>hd.entity.Orders</class>
+    <class>hd.entity.Product</class>
+    <class>hd.entity.ProductPhoto</class>
+    <class>hd.entity.Professional</class>
+    <class>hd.entity.Project</class>
+    <class>hd.entity.Promotion</class>
+    <class>hd.entity.Role</class>
+    <class>hd.entity.SellerInfo</class>
+    <class>hd.entity.Story</class>
+    <class>hd.entity.Style</class>
+    <class>hd.entity.Tracking</class>
+    <class>hd.entity.TypeOfWork</class>
+    <class>hd.entity.User</class>
+    <class>hd.entity.Bookmark</class>
+    <class>hd.entity.PromotionDetail</class>
+    <class>hd.entity.IdeaBookPhotoRef</class>
+    <exclude-unlisted-classes>false</exclude-unlisted-classes>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/house_decor?zeroDateTimeBehavior=convertToNull"/>
+      <property name="javax.persistence.jdbc.user" value="root"/>
+      <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+      <property name="javax.persistence.jdbc.password" value="123456"/>
+    </properties>
+  </persistence-unit>
+</persistence>
